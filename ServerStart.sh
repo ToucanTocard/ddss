@@ -25,6 +25,7 @@ eula_false() {
 
 # cleaner code 2
 start_server() {
+    touch autostart.stamp
     "$JAVACMD" -server -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -jar ${FORGEJAR} nogui
     #java -Xms1024M -Xmx6048M -jar forge-1.12.2-14.23.5.2847-universal.jar nogui
 }
