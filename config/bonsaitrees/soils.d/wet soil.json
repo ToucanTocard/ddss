@@ -1,0 +1,17 @@
+    
+{
+  "name": "valoegheses_be:soil_wet",
+  "mod": "nuclearcraft",
+  "soil": {
+    "name": "valoegheses_be:soil_wet",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.70,
+    "dropChance": 1.4
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

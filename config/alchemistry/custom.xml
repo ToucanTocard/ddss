@@ -1,0 +1,209 @@
+<!--Read the wiki for more info on using custom recipes https://github.com/al132mc/alchemistry/wiki -->
+
+
+<recipes>
+<recipe type="dissolver" action="remove">
+    <input>minecraft:cobblestone</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>minecraft:stone</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>minecraft:lapis_block</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>logWood</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>plankWood</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>slabWood</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>slabWood</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>minecraft:quartz</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>minecraft:quartz_block</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>oreTungsten</input>
+</recipe>
+<recipe type="dissolver" action="remove">
+    <input>dustTungsten</input>
+</recipe>
+
+
+<recipe type="dissolver">
+    <input>logWood</input>
+    <output type="absolute">
+        <group probability="30">
+            <item quantity="1">water</item>
+        </group>
+        <group probability="70">
+            <item>cellulose</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>plankWood</input>
+    <output type="absolute">
+        <group probability="30">
+            <item quantity="1">water</item>
+        </group>
+        <group probability="70">
+            <item>cellulose</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>gemQuartz</input>
+    <output type="absolute">
+        <group probability="20">
+            <item quantity="1">hydrogen</item>
+        </group>
+        <group probability="80">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece:1</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece:2</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece:3</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece:4</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece:5</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece:6</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+<recipe type="dissolver">
+    <input>undergroundbiomes:fossil_piece:7</input>
+    <output type="absolute">
+        <group probability="80">
+            <item quantity="2">protein</item>
+        </group>
+        <group probability="20">
+            <item>barium</item>
+        </group>
+    </output>
+</recipe>
+
+
+<recipe type="combiner">
+    <input>
+        <item key="A" quantity="2">starch</item>
+        <item key="B" quantity="32">boron</item>
+		<item key="C" quantity="8">phosphorus</item>
+        <row>ABA</row>
+        <row> C </row>
+        <row>   </row>
+    </input>
+    <output>
+        <item>mysticalagriculture:fertilized_essence</item>
+    </output>
+</recipe>
+
+
+
+<recipe type="combiner" action="remove">
+    <input>
+        <item key="A" quantity="64">carbon</item>
+        <item key="B" quantity="5">rubidium</item>
+        <row>AAA</row>
+        <row>A A</row>
+        <row>AAA</row>
+    </input>
+</recipe>
+<recipe type="combiner" action="remove">
+    <input>
+        <item key="A" quantity="16">silicon</item>
+        <item key="B" quantity="5">rubidium</item>
+        <row>A  </row>
+        <row>   </row>
+        <row>   </row>
+    </input>
+</recipe>
+</recipes>
+
+
+
+
+
+
+
+
+
+
+
+

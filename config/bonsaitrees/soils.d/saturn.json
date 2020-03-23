@@ -1,0 +1,17 @@
+    
+{
+  "name": "extraplanets:saturn_gravel",
+  "mod": "extraplanets",
+  "soil": {
+    "name": "extraplanets:saturn_gravel",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.15,
+    "dropChance": 3.0
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

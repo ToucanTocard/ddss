@@ -1,0 +1,17 @@
+    
+{
+  "name": "nuclearcraft:dry_earth",
+  "mod": "nuclearcraft",
+  "soil": {
+    "name": "nuclearcraft:dry_earth",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.40,
+    "dropChance": 2.0
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

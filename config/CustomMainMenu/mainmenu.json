@@ -1,0 +1,248 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:textures/bb.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 100,
+            "height" : 600,
+            "alignment" : "top_left"
+        },
+        "moon":
+        {
+            "image" : "mainmenu:textures/blut.png",
+            "posX" : -80,
+            "posY" : 5,
+            "width" : 70,
+            "height" : 70,
+            "alignment" : "top_right"
+        }
+
+    },	
+
+    "buttons":
+    {	
+		
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"alignment" : "top_left",
+            "posX" : 10,
+            "posY" : 33,
+            "width" : 77,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"alignment" : "top_left",
+            "posX" : 10,
+            "posY" : 54,
+            "width" : 77,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+			"alignment" : "top_left",
+            "posX" : 10,
+            "posY" : 96,
+            "width" : 77,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"alignment" : "top_left",
+            "posX" : 10,
+            "posY" : 75,
+            "width" : 77,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+			"alignment" : "top_left",
+            "posX" : 39,
+            "posY" : 180,
+            "width" : 77,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+			
+        },
+		
+		"discord":
+        {
+            "text" : "Discord",
+			"alignment" : "top_left",
+            "posX" : 10,
+            "posY" : 117,
+            "width" : 77,
+            "height" : 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://discordapp.com/channels/517940323737927680/547104723665420288"
+			}
+        },
+
+        "github":
+        {
+            "text" : "GitHub",
+			"alignment" : "top_left",
+            "posX" : 10,
+            "posY" : 138,
+            "width" : 77,
+            "height" : 20,
+            "action": {
+                "type" : "openLink",
+                "link" : "https://github.com/Freebi85/Dungeons-Dragons-Space-Shuttles/issues"
+			}
+        },
+
+        "exit":
+        {
+            "text" : "EXIT",
+			"alignment" : "top_left",
+            "posX" : 10,
+            "posY" : 159,
+            "width" : 77,
+            "height" : 20,
+            "action": {
+                "type" : "quit"
+			}
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -160,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+
+		"forge":
+        {
+            "text" : "Forge: #forgeversion#",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+			"fontSize" : 0.90,
+            "alignment" : "bottom_left"
+        },
+
+        "Version":
+        {
+            "text" : "DD&SS Version 7.1a",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left",
+			"fontSize" : 0.90,
+			"action" :
+            {
+            	"type" : "openLink",
+            	"link" : "https://minecraft.curseforge.com/projects/dungeons-dragons-and-space-shuttles"
+            }
+		},
+		
+		"Release":
+		{
+			"text" : "Released: 26. Jan. 2020",
+            "posX" : 2,
+            "posY" : -30,
+            "color" : -1,
+			"fontSize" : 0.90,
+            "alignment" : "bottom_left"
+		},
+		
+		"Mods loaded":
+		{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+			"fontSize" : 0.90,
+            "alignment" : "bottom_left"
+		},
+		
+		"Welcome":
+		{
+			"text" : "Welcome to DD&SS!",
+            "posX" : 7,
+            "posY" : 16,
+            "color" : -255,
+			"fontSize" : 1,
+            "alignment" : "top_left"
+		},
+		"Bloodmoon":
+		{
+			"text" : "The Blood Moon is Rising...",
+            "posX" : 2,
+            "posY" : -10,
+            "color" :-55550,
+			"fontSize" : 0.90,
+            "alignment" : "bottom_left"
+		}
+
+	},
+
+
+    "other":
+    {
+        "background":
+		{
+			"image" : "mainmenu:textures/ddsss.png",
+			"mode" : "stretch"
+		}
+	}
+
+    },
+	
+}
+
+
+
+
+
+
+

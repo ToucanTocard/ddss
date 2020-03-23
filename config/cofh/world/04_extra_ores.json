@@ -1,0 +1,469 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {	
+		"ardite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"tconstruct:ore",
+					"metadata": 1
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7,
+				]
+			}
+		},
+		"Vibranium_Moon": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:vibranium_ore",
+					"metadata": 0
+				},
+				"material": "galacticraftplanets:mars",
+				"cluster-size": 3
+			},
+			"cluster-count": 4,
+			"min-height": 15,
+			"max-height": 45,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29,
+				]
+			}
+		},
+		"Vanadium TF": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"valoegheses_be:ore_vanadium",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 3,
+			"min-height": 9,
+			"max-height": 28,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7,
+				]
+			}
+		},
+		"Draconium Venus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"draconicevolution:draconium_ore",
+					"metadata": 1
+				},
+				"material": "galacticraftplanets:venus",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 9,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31,
+				]
+			}
+		},
+		"Naquadah Moon": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"sgcraft:naquadahore",
+					"metadata": 0
+				},
+				"material": "galacticraftcore:basic_block_moon",
+				"cluster-size": 3
+			},
+			"cluster-count": 4,
+			"min-height": 9,
+			"max-height": 35,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28,
+				]
+			}
+		},
+		"Triberium Blocks Titan": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:triberium_block",
+					"metadata": 0
+				},
+				"material": "extraplanets:titan",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"min-height": 10,
+			"max-height": 45,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1508,
+				]
+			}
+		},
+		"Iox Blocks Uranus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:iox_block",
+					"metadata": 0
+				},
+				"material": "extraplanets:uranus",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-17,
+				]
+			}
+		},
+		"Abyssum Mercury": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:abyssum_ore",
+					"metadata": 0
+				},
+				"material": "extraplanets:mercury",
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 60,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-13,
+				]
+			}
+		},
+		"Dilithium Phobos": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:dilithium_ore",
+					"metadata": 0
+				},
+				"material": "extraplanets:phobos",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1502,
+				]
+			}
+		},
+		"Admanat Kepler": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:adamant_block",
+					"metadata": 0
+				},
+				"material": "extraplanets:kepler22b",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-22,
+				]
+			}
+		},
+		"Awakened Draconium Kepler": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"draconicevolution:draconic_block",
+					"metadata": 0
+				},
+				"material": "extraplanets:kepler22b",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 20,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-22,
+				]
+			}
+		},
+		"Emerald Block Kepler": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"minecraft:emerald_block",
+					"metadata": 0
+				},
+				"material": "extraplanets:kepler22b",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"min-height": 16,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-22,
+				]
+			}
+		},
+		"Diamond Block Kepler": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"minecraft:diamond_block",
+					"metadata": 0
+				},
+				"material": "extraplanets:kepler22b",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"min-height": 16,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-22,
+				]
+			}
+		},
+		"Nickel Block Kepler": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"thermalfoundation:storage",
+					"metadata": 5
+				},
+				"material": "extraplanets:kepler22b",
+				"cluster-size": 2
+			},
+			"cluster-count": 4,
+			"min-height": 25,
+			"max-height": 50,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-22,
+				]
+			}
+		},
+		"Gold Block Kepler": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"minecraft:gold_block",
+					"metadata": 5
+				},
+				"material": "extraplanets:kepler22b",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 20,
+			"max-height": 45,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-22,
+				]
+			}
+		},
+		"Enderpearl Block Kepler": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"actuallyadditions:block_misc",
+					"metadata": 6
+				},
+				"material": "extraplanets:kepler22b",
+				"cluster-size": 5
+			},
+			"cluster-count": 3,
+			"min-height": 40,
+			"max-height": 85,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-22,
+				]
+			}
+		},
+		"Karmesine Deep Dark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:karmesine_ore",
+					"metadata": 0
+				},
+				"material": "minecraft:cobblestone",
+				"cluster-size": 5
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 90,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325,
+				]
+			}
+		},
+		"Karmesine Deep Dark in smooth": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:karmesine_ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 90,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325,
+				]
+			}
+		},
+		"Jauxum Deep Dark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:jauxum_ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 90,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325,
+				]
+			}
+		},
+		"Ovium Deep Dark": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"taiga:ovium_ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 90,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325,
+				]
+			}
+		},
+		"mana": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"thermalfoundation:ore",
+					"metadata": 8
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 4,
+			"min-height": 9,
+			"max-height": 27,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7,
+					-30,
+				]
+			}
+		}
+		
+	}
+}

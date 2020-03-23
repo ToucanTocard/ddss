@@ -1,0 +1,46 @@
+
+# Created by Ruins mod version 17.0 Ingame Parser
+# authoring Player: ST753M
+
+# Creates one of 17 structures down near the bottom of the overworld.
+
+# List of Structures:
+# - The Red Geode
+# - The Orange Tree
+# - The Yellow Lamp
+# - The Lime Field
+# - The Green Tower
+# - The Cyan Fountain
+# - The Sky Garden
+# - The Blue Bubble
+# - The Purple Library
+# - The Magenta Pool
+# - The Pink Crystal
+# - The Rainbow Grove
+# - The Brown Village
+# - The Black Cell
+# - The Gray Tank
+# - The Silver Pillars
+# - The White Shrine
+
+weight=4
+uniqueMinDistance=256
+embed_into_distance=2
+acceptable_target_blocks=grass,dirt,podzol,mycelium,ice,dirt,sand,gravel,sandstone,snow,snow_layer,clay,mud,cobblestone,terracotta,hardened_clay,red_sand,coarse_dirt,stained_hardened_clay,red_sandstone,packed_ice,snow_block
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=1,1,1
+allowable_overhang=5
+max_leveling=2
+leveling_buffer=0
+preserve_water=1
+preserve_lava=1
+
+biomesToSpawnIn=prairie,shrubland,chaparral,grassland,meadow,rocky_plains,rocky_plateau,savanna,savanna_rock,mutated_savanna,mutated_savanna_rock,brushland,steppe,wasteland,tundra,outback,badlands,desert_shrubland,arid_highland,desert,desert_hills,oasis,mutated_desert,xeric_shrubland,mountainous_desert,ice_flats,ice_mountains,glacier,mutated_ice_flats,frozen_ocean,frozen_river,cold_beach,cold_desert,ice_mountains,glacier,glacier_spikes,extreme_hills,smaller_extreme_hills,mutated_extreme_hills,mutated_extreme_hills_with_trees,extreme_hills_with_trees,highland,alps,alps_foothills,mountain,mountain_foothills,crag,cliffs
+
+# 3 for each of the non-rainbow ones, so the rainbow one is sufficiently rare
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Orange ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Orange ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Orange ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_White ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_White ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_White ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Gray ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Gray ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Gray ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Rainbow ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Green ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Green ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Green ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Red ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Red ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Red ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Yellow ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Yellow ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Yellow ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Lime ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Lime ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Lime ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Cyan ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Cyan ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Cyan ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Sky ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Sky ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Sky ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Blue ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Blue ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Blue ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Purple ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Purple ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Purple ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Magenta ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Magenta ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Magenta ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Brown ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Brown ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Brown ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Silver ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Silver ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Silver ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Black ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Black ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Black ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Pink ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Pink ~ 10 ~:@-1,CommandBlock:RUINSTRIGGER /testruin ST753M/753_DeepQuark_Pink ~ 10 ~:@-1
+
+layer
+1
+endlayer
+

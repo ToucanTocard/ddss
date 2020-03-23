@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:1": "questbook:itemquestbook",
+    "0:3": "simplybackpacks:commonbackpack,1,0,{inv:{Size:18,Items:[]},filter:{Size:16,Items:[]}}",
+    "0:10": "minecraft:apple,4",
+    "0:2": "harvestcraft:leafychickensandwichitem,4",
+    "0:4": "botania:brewvial,1,0,{swigsLeft:2,brewKey:\"absorption\"}",
+    "0:0": "thermalfoundation:tool.axe_copper,1,0,{ench:[{lvl:1s,id:114s}],RepairCost:1}",
+    "0:9": "akashictome:tome,1,0,{\"akashictome:data\":{tconstruct:{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"tconstruct:book\",Count:1b,tag:{\"akashictome:definedMod\":\"tconstruct\"},Damage:0s},integratedtunnels:{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"integrateddynamics:on_the_dynamics_of_integration\",Count:1b,tag:{\"akashictome:definedMod\":\"integratedtunnels\"},Damage:0s},astralsorcery:{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"astralsorcery:itemjournal\",Count:1b,tag:{\"akashictome:definedMod\":\"astralsorcery\"},Damage:0s},theoneprobe:{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"theoneprobe:probenote\",Count:1b,tag:{\"akashictome:definedMod\":\"theoneprobe\"},Damage:0s},actuallyadditions:{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"actuallyadditions:item_booklet\",Count:1b,tag:{\"akashictome:definedMod\":\"actuallyadditions\"},Damage:0s},valkyrielib:{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"valkyrielib:guide\",Count:1b,tag:{\"akashictome:definedMod\":\"valkyrielib\",guide_data:{mainindex:{x_scroll:0,y_scroll:-130,index:\"environmentaltech\",environmentaltech:{index:{index:\"solar_arrays\"}}}}},Damage:0s},forestry:{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"forestry:book_forester\",Count:1b,tag:{\"akashictome:definedMod\":\"forestry\"},Damage:0s}}}"
+  }
+}
