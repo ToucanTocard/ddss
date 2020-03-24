@@ -81,11 +81,11 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
-quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
+quark:gravisand
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -101,7 +101,7 @@ quark:ashen
 quark:pirate
 quark:crab
 quark:wraith
-quark:gravisand
+quark:chest_passenger
 botania:mana_burst
 botania:signal_flare
 botania:pixie
