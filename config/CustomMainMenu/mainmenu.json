@@ -172,7 +172,7 @@
 
         "Version":
         {
-            "text" : "DD&SS Version 7.1a",
+            "text" : "DD&SS Version 7.2b",
             "posX" : 2,
             "posY" : -40,
             "color" : -1,
@@ -187,7 +187,7 @@
 		
 		"Release":
 		{
-			"text" : "Released: 26. Jan. 2020",
+			"text" : "Released: 04. March 2020",
             "posX" : 2,
             "posY" : -30,
             "color" : -1,
